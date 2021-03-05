@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- SKELETON OF A BASIC WEB PAGE USING ONLY BASIC HTML WE SHOULD ALL BE FAMILIAR WITH SO FAR -->
+<html lang="en">
+  <head>
+    <title>Web Production 1</title>
+<!--     The meta elements of this document describe the document and its keywords.-->    
+    <meta charset="utf-8">
+<!-- https://www.w3schools.com/charsets/ref_html_utf8.asp-->    
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    https://www.w3schools.com/css/css_rwd_viewport.asp-->   
+    <meta name="description" content="Home page for Web Production 1">
+    <meta name="author" content="Adonis Edwards">
+<!--   The meta elements of this document describe the document and its keywords.-->    
+  <link rel="shortcut icon" href="favicon.png">
+<!--   https://www.w3schools.com/icons/-->  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+  <body>
+    <h1 class="name">Adonis</h1>
+  <main>
+<!--     basic responsive image setting width: 100%-->
+  </main>
+
+<!-- https://www.w3schools.com/tags/tag_nav.asp-->
+
+     <nav>
+         <!-- navigation -->
+
+<!-- https://www.w3schools.com/tags/tag_header.asp-->
+<header>
+<!--The most common way of adding navigation elements to websites are through using unordered lists (<ul></ul>).-->
+<!-- https://www.w3schools.com/tags/tag_ul.asp -->      
+    <div class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+    </nav>
+<!--     Inside ul tag we added li tag and inside each of li tags we added an anchor(a) tag.
+the a tags are our links in our navigation menu. As you can see each one has a text inside for each of our sections and also they have a href attribute.
+
+For each href attribute we gave it a name that starts with a hash(#). It's important when we want to click on each of those links and expect the page to navigate to the corresponding section in our page.
+
+The anchor tag makes each list element a link and passing in the #id_name lets us target different sections by ID, just like in CSS ** new feature in HTML5 -->
+
+    <!-- home -->
+    </header>
+    
+<!--     https://www.w3schools.com/tags/tag_section.asp-->    
+ <section id="home">
+<!--  https://www.w3schools.com/tags/tag_video.asp-->  
+<!-- <video width="480" height="360" class="video" controls> -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/BmWIQB-qhWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen class="youtube"></iframe>
+<!-- </video> -->
+<!-- https://www.w3schools.com/html/html_tables.asp--> 
+
+<div>
+  <h4 class="vid-desc">
+    "Old Justice" by Adonis' favorite rapper, Brownsville Ka. <br> It silmuntaneously discusses what was considered justice in the Oldened 80s and the Oldened Biblical days.
+  </h4>
+</div>
+
+ </section>
+ <hr>
+
+    <!-- About -->
+    <section id="about">
+      
+<!--       https://www.w3schools.com/html/html_paragraphs.asp-->      
+<p class="vid-desc">Adonis is a Brooklyn-based, born, and raised creative. As an experienced tech developer specializing in Front End, he  proactively <br>seeks new concepts in which he can apply
+my skills to and strengthen his creative interests. His speciality is providing a seamless curated experience for 
+clients.
+    </p>
+    </section>
+
+    <!-- Project -->
+    <section id="project">
+      <h1 class="prev">Previous Works</h1>
+      <ul class="previous">
+        <li>
+          <a href="https://www.hardieshardware.com" target="_blank"><img src="hardies.png" alt="" style="width: 80px;"></a>
+        </li>
+        <li>
+          <a href="http://www.c-h-i-l-l.us/#/" target="_blank"><img src="chill.png" alt="" style="width: 80px;"></a>
+        </li>
+      </ul>
+      </section>
+
+   
+
+    <!-- footer -->
+<!--     https://www.w3schools.com/tags/tag_footer.asp-->    
+   <footer id="contact" class="contact">
+      <li class="linked-in">
+        <a href="https://www.linkedin.com/in/adonis-edwards/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </li>
+      <li class="git-hub">
+        <a href="https://github.com/aaaadonis" target="_blank"><i class="fab fa-github" style="padding-left: 30px;"></i></a>
+      </li>
+    </footer>
+
+  </body>
+  </html>
+
